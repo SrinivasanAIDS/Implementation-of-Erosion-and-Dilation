@@ -1,4 +1,7 @@
-# Implementation-of-Erosion-and-Dilation
+### Ex No: 10
+### Date:
+
+# <p align="center"> Implementation-of-Erosion-and-Dilation </p>
 
 ## Aim
 To implement Erosion and Dilation using Python and OpenCV.
