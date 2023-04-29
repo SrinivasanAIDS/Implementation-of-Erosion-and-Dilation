@@ -43,7 +43,7 @@ import matplotlib.pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((300,500),dtype='uint8')
 font=cv2.FONT_ITALIC=3
-img2=cv2.putText(img1,"Kumar",(5,70),font,3,(255),5,cv2.LINE_AA)
+img2=cv2.putText(img1,"Srinivasan S",(5,70),font,3,(255),5,cv2.LINE_AA)
 cv2.imshow("Original",img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -67,13 +67,15 @@ cv2.destroyAllWindows()
 ## Output:
 
 ### Display the input Image
-![image](https://user-images.githubusercontent.com/103049243/171180516-a1f8da63-d16f-4da6-b068-bc3760bd14b6.png)
+![image](https://user-images.githubusercontent.com/103049243/235292855-f15bed5a-dfe3-4d06-8899-16baa55bc183.png)
 
 ### Display the Eroded Image
-![image](https://user-images.githubusercontent.com/103049243/171180677-af1d1945-1bbc-42e5-8c9a-5302011656c5.png)
+![image](https://user-images.githubusercontent.com/103049243/235292894-d6cccc0f-fac4-4e33-858e-6382c050f26c.png)
 
 ### Display the Dilated Image
-![image](https://user-images.githubusercontent.com/103049243/171180788-a89b3cf2-92cb-4435-aa81-35a90eae2e2e.png)
+![image](https://user-images.githubusercontent.com/103049243/235293590-e8490bcc-a425-4ac6-848b-be037facd430.png)
+
+
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
